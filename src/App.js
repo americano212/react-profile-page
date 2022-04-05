@@ -4,6 +4,11 @@ import 'fullpage.js';
 import 'fullpage.js/dist/jquery.fullpage.min.css';
 import $ from 'jquery';
 
+import FullPageSection_1 from './component/mainpage_section_1';
+import FullPageSection_2 from './component/mainpage_section_2';
+import FullPageSection_3 from './component/mainpage_section_3';
+import Header from './component/Header';
+
 export default function FullPageLanding() {
   $(() => {
       $('#fullpage').fullpage({
@@ -16,9 +21,10 @@ export default function FullPageLanding() {
   });
   return (
       <div id="fullpage">
-          <div className="section">1 page</div>
-          <div className="section">2 page</div>
-          <div className="section">3 page</div>
+          <Header></Header>
+          <FullPageSection_1></FullPageSection_1>
+          <FullPageSection_2></FullPageSection_2>
+          <FullPageSection_3></FullPageSection_3>
       </div>
   );
 }
