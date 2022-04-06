@@ -4,8 +4,11 @@ class FullPageSection2 extends Component{
     render(){
         return (
             <div className="section">
-                <p>Career</p>
-                <p></p>
+                <div className="careerBox">
+                    <p>Career</p>
+                    <p></p>
+                </div>
+
             </div>
         )
     }

@@ -1,11 +1,11 @@
 import React,{ Component } from "react";
 import '../css/fullpage-overrides.css';
 
-class FullPageSection3 extends Component{
+class FullPageSection4 extends Component{
     render(){
         return (
             <div className="section">
-                <div className="contactBox">
+                <div className="tmiBox">
                     
                 </div>
             </div>
@@ -13,4 +13,4 @@ class FullPageSection3 extends Component{
     }
 }
 
-export default FullPageSection3
+export default FullPageSection4

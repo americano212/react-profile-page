@@ -20,6 +20,7 @@ class FullPageSection1 extends Component{
                 </div>
                 <hr />
                 <div className="educationBox">
+                    <p>EDUCATION</p>
                     <p>Sogang Univ. Computer Science</p>
                     <p>서강대학교 컴퓨터공학과 학부 재학 중</p>
                     <p>Busan Science High School, 15th Graduate</p>
