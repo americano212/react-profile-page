@@ -1,4 +1,5 @@
 import React,{ Component } from "react";
+import '../css/fullpage-overrides.css';
 
 class FullPageSection_3 extends Component{
     render(){

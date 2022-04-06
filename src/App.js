@@ -23,7 +23,6 @@ export default function FullPageLanding() {
     <div id='app'>
         <Header></Header>    
         <div id="fullpage">
-
             <FullPageSection_1></FullPageSection_1>
             <FullPageSection_2></FullPageSection_2>
             <FullPageSection_3></FullPageSection_3>
