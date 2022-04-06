@@ -4,9 +4,9 @@ import 'fullpage.js';
 import 'fullpage.js/dist/jquery.fullpage.min.css';
 import $ from 'jquery';
 
-import FullPageSection_1 from './component/mainpage_section_1';
-import FullPageSection_2 from './component/mainpage_section_2';
-import FullPageSection_3 from './component/mainpage_section_3';
+import FullPageSection1 from './component/mainpage_section_1';
+import FullPageSection2 from './component/mainpage_section_2';
+import FullPageSection3 from './component/mainpage_section_3';
 import Header from './component/Header';
 
 export default function FullPageLanding() {
@@ -23,9 +23,9 @@ export default function FullPageLanding() {
     <div id='app'>
         <Header></Header>    
         <div id="fullpage">
-            <FullPageSection_1></FullPageSection_1>
-            <FullPageSection_2></FullPageSection_2>
-            <FullPageSection_3></FullPageSection_3>
+            <FullPageSection1></FullPageSection1>
+            <FullPageSection2></FullPageSection2>
+            <FullPageSection3></FullPageSection3>
         </div>
 
     </div>

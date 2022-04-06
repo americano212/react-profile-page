@@ -1,7 +1,7 @@
 import React,{ Component } from "react";
 import '../css/fullpage-overrides.css';
 
-class FullPageSection_3 extends Component{
+class FullPageSection3 extends Component{
     render(){
         return (
             <div className="section">3 page</div>
@@ -9,4 +9,4 @@ class FullPageSection_3 extends Component{
     }
 }
 
-export default FullPageSection_3
+export default FullPageSection3
