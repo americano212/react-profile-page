@@ -20,11 +20,16 @@ export default function FullPageLanding() {
       });
   });
   return (
-      <div id="fullpage">
-          <Header></Header>
-          <FullPageSection_1></FullPageSection_1>
-          <FullPageSection_2></FullPageSection_2>
-          <FullPageSection_3></FullPageSection_3>
-      </div>
+    <div id='app'>
+        <Header></Header>    
+        <div id="fullpage">
+
+            <FullPageSection_1></FullPageSection_1>
+            <FullPageSection_2></FullPageSection_2>
+            <FullPageSection_3></FullPageSection_3>
+        </div>
+
+    </div>
+
   );
 }
