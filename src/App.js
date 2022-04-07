@@ -14,9 +14,9 @@ export default function FullPageLanding() {
   $(() => {
       $('#fullpage').fullpage({
           scrollOverflow: true,
-          sectionsColor: ['#ffffff', '#D6C7ED', '#9FD4EB','#ffffff'],
+          sectionsColor: ['#ffffff', '#f0f0f1', '#ffffff','#f0f0f1'],
           navigation: true,
-          navigationTooltips: ['Home', 'Career', 'Contacts','???'],
+          navigationTooltips: ['Home', 'Career', 'Projects','Contacts'],
           scrollingSpeed: 1000,
       });
   });

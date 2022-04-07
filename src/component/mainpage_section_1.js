@@ -4,6 +4,7 @@ class FullPageSection1 extends Component{
     render(){
         return (
             <div className="section">
+                <h2>Profile</h2>
                 <div className="nameBox">
                     <p>신 동 준</p>
                     <p>DONGJUN SHIN </p>
@@ -20,7 +21,7 @@ class FullPageSection1 extends Component{
                 </div>
                 <hr />
                 <div className="educationBox">
-                    <p>EDUCATION</p>
+                    <h2>EDUCATION</h2>
                     <p>Sogang Univ. Computer Science</p>
                     <p>서강대학교 컴퓨터공학과 학부 재학 중</p>
                     <p>Busan Science High School, 15th Graduate</p>

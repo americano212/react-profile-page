@@ -5,8 +5,8 @@ class FullPageSection3 extends Component{
     render(){
         return (
             <div className="section">
-                <div className="contactBox">
-                    
+                <div className="projectBox">
+                    <h2>Projects</h2>
                 </div>
             </div>
         )

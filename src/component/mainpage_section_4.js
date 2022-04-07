@@ -5,7 +5,7 @@ class FullPageSection4 extends Component{
     render(){
         return (
             <div className="section">
-                <div className="tmiBox">
+                <div className="contactBox">
                     
                 </div>
             </div>
