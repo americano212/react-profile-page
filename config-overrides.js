@@ -1,2 +1,12 @@
 const webpack = require('webpack');
-new webpack.ProvidePlugin({ $: 'jquery', jQuery: 'jquery', IScroll: 'iscroll' })
+
+module.exports = {
+  webpack: function(config, env) {
+    config.plugins.push(new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+      IScroll: 'iscroll',
+    }));
+    return config;
+  },
+};
