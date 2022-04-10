@@ -1,12 +1,13 @@
 import React,{ Component } from "react";
 import '../css/fullpage-overrides.css';
+import '../css/mainpage_section_2.css';
+
 class FullPageSection2 extends Component{
     render(){
         return (
             <div className="section">
-                <div className="careerBox">
-                    <h2>Career</h2> 
-                    <hr />
+                <div className="careerWrap">
+                    <h1>Career</h1>
                     <p>부산과학고등학교</p>
                     <p>2017.3 ~ 2020.2</p>
                     <br />
