@@ -28,6 +28,12 @@ class FullPageSection3 extends Component{
                         <p>Main Tech Stack : Node.js + express, Mysql</p>
                         <p>Summary : 처음으로 git을 이용해 협업을 하면서 개발한 공학부 신문고 게시판</p>
                     </div>
+                    <div className="">
+                        <h4>Profile Page</h4>
+                        <p>Make own profile page use react</p>
+                        <p>Main Tech Stack : React</p>
+                        <p>Summary : 지금 보고 계시는 프로필 페이지</p>
+                    </div>
                 </div>
             </div>
         )
