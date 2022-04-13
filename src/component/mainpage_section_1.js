@@ -27,10 +27,18 @@ class FullPageSection1 extends Component{
                     <br />
                     <div className="educationBox">
                         <h2>EDUCATION</h2>
-                        <p>SW마에스트로 13기 연수생 활동 중</p>
-                        <p>Sogang Univ. Computer Science</p>
-                        <p>서강대학교 컴퓨터공학과 학부 휴학 중</p>
-                        <p>Busan Science High School, 15th Graduate</p>
+                        <p><a href="https://www.swmaestro.org/sw/main/main.do" 
+                        target="_blank" 
+                        rel="noopener noreferrer">SW마에스트로 13기 연수생 활동 중</a></p>
+                        <p><a href="https://cs.sogang.ac.kr/cs/index_new.html"
+                        target="_blank" 
+                        rel="noopener noreferrer">Sogang Univ. Computer Science</a></p>
+                        <p><a href="https://cs.sogang.ac.kr/cs/index_new.html"
+                        target="_blank" 
+                        rel="noopener noreferrer">서강대학교 컴퓨터공학과 학부 휴학 중</a></p>
+                        <p><a href="http://bss.hs.kr"
+                        target="_blank" 
+                        rel="noopener noreferrer">Busan Science High School, 15th Graduate</a></p>
                     </div>
                     <div className="timeBox">
                     <div id="remain-time"></div>

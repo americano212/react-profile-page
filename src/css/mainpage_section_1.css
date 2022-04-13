@@ -1,14 +1,14 @@
 .profileWrap{
     margin-left: 10%;
     margin-right: 50%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 .profileWrap p{
     margin: 0;
 }
 .nameBox p{
     letter-spacing: 0.5ch;
-    font-weight: 500;
+    font-weight: 1000;
     font-size: calc(10px + 1vmin);
     text-shadow: 2px 2px 10px grey;
 }
@@ -21,4 +21,23 @@
 
 .educationBox p{
     line-height: 150%;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+.mottoTextBox{
+    position: relative;
+    animation: fadeInUp 1s;
+}
+.educationBox {
+    position: relative;
+    animation: fadeInUp 1s;
 }

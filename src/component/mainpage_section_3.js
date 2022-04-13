@@ -8,7 +8,7 @@ class FullPageSection3 extends Component{
         return (
             <div className="section">
                 <div className="projectWrap">
-                    <h2>Projects</h2>
+                    <h1>Projects</h1>
                     <br/>
                     <div className="projectBox leftBox">
                         <h4>Campus Compass</h4>
