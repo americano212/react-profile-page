@@ -15,7 +15,6 @@ margin-bottom: 10px;
 background: ${(props) => props.background || "black"};
 `;
 const LogoName = styled.div``;
-const LogoText = styled.div``;
 // const LogoLink = styled.div``;
 export default function Logo({logoPath,background,logoName,children,logoLink}) {
     return (
@@ -23,7 +22,7 @@ export default function Logo({logoPath,background,logoName,children,logoLink}) {
             <a href={logoLink} 
             target="_blank"
             rel="noopener noreferrer">
-            <LogoIcon background={background}><img src={logoPath} width="50" height="auto"></img></LogoIcon></a>
+            <LogoIcon background={background}><img src={logoPath} alt={logoName} width="50" height="auto"></img></LogoIcon></a>
             <LogoName><p><a href={logoLink} target="_blank" rel="noopener noreferrer">{logoName}<br/>
             {children}</a></p></LogoName>
         </LogoWrap>
