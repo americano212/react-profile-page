@@ -9,12 +9,12 @@ class FullPageSection4 extends Component{
         return (
             <div className="section">
                 <div className="contactWrap">
-                    <Logo logoName="Instagram" logoPath="img/icon/instagram.svg" logoLink="#">dongjun0212</Logo>
-                    <Logo logoName="Github" logoPath="img/icon/github.svg" logoLink="#">wq0212</Logo>
-                    <Logo logoName="Facebook" logoPath="img/icon/facebook.svg" logoLink="#">신동준</Logo>
+                    <Logo logoName="Instagram" logoPath="img/icon/instagram.svg" logoLink="#" background="#C13584">dongjun0212</Logo>
+                    <Logo logoName="Github" logoPath="img/icon/github.svg" logoLink="#" background="#333">wq0212</Logo>
+                    <Logo logoName="Facebook" logoPath="img/icon/facebook.svg" logoLink="#" background="#4267B2">신동준</Logo>
                     
-                    <Logo logoName="Youtube" logoPath="img/icon/youtube.svg" logoLink="#">PyPyStory</Logo>
-                    <Logo logoName="Mail" logoPath="img/icon/gmail.svg" logoLink="#">wq0212<br />@naver.com</Logo>
+                    <Logo logoName="Youtube" logoPath="img/icon/youtube.svg" logoLink="#" background="#FF0000">PyPyStory</Logo>
+                    <Logo logoName="Mail" logoPath="img/icon/gmail.svg" logoLink="#" background="#EA4335">wq0212<br />@naver.com</Logo>
                 </div>
             </div>
         )

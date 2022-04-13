@@ -1,13 +1,13 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {UncontrolledCollapse, Button, CardBody, Card} from 'reactstrap';
 
 function Collapse(props) {
     return (
         <div className="flex-column">
             <Button color="secondary" id="toggle" size='sm'>
-                더보기
+                열기/닫기
             </Button>
-            <UncontrolledCollapse toggler="#toggle" className="m-0 p-0">
+            <UncontrolledCollapse toggler="#toggle" className="m-0 p-0" defaultOpen={true}>
                 <Card>
                     <CardBody>
                         {props.children}
