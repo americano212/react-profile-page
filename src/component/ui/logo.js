@@ -4,21 +4,21 @@ const LogoWrap = styled.div`
 float: left;
 margin: 3%;
 `;
-const logoIcon = styled.div`
+const LogoIcon = styled.div`
 
 `;
-const logoName = styled.div``;
-const logoText = styled.div``;
-const logoLink = styled.div``;
+const LogoName = styled.div``;
+const LogoText = styled.div``;
+// const LogoLink = styled.div``;
 export default function Logo(props) {
     return (
         <a href={props.logoLink} 
         target="_blank"
         rel="noopener noreferrer">
         <LogoWrap>
-            <logoIcon><img src={props.logoPath} width="50" height="auto"></img></logoIcon>
-            <logoName><p>{props.logoName}</p></logoName>
-            <logoText><p>{props.children}</p></logoText>
+            <LogoIcon><img src={props.logoPath} width="50" height="auto"></img></LogoIcon>
+            <LogoName><p>{props.logoName}</p></LogoName>
+            <LogoText><p>{props.children}</p></LogoText>
         </LogoWrap>
         </a>
     );
