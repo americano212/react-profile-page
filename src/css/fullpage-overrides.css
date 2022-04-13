@@ -4,3 +4,7 @@
 #fp-nav ul li .fp-tooltip{
     color: black;
 }
+
+.section a:link { color: black; text-decoration: none;}
+.section a:visited { color: black; text-decoration: none;}
+.section a:hover { color: gray; text-decoration: underline;}
