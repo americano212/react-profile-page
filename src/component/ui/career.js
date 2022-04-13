@@ -16,7 +16,11 @@ const CareerBox = styled.div`
 export default function Career(props) {
     return (
         <CareerBox>
-            <p><NameBox>{props.careerName}</NameBox><SummaryBox>{props.careerSummary}</SummaryBox></p>
+            <p><NameBox><a 
+            href={props.careerLink} 
+            alt={props.careerName} 
+            target="_blank" 
+            rel="noopener noreferrer">{props.careerName}</a></NameBox><SummaryBox>{props.careerSummary}</SummaryBox></p>
             <br />
             <p><DateBox>{props.children}</DateBox></p>
         </CareerBox>

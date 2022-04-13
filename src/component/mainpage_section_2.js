@@ -12,19 +12,19 @@ class FullPageSection2 extends Component{
                 <div className="careerWrap">
                     <h1>Career</h1>
                     <br/>
-                    <Career careerName="부산과학고등학교">2017.3 ~ 2020.2</Career>
+                    <Career careerName="부산과학고등학교" careerLink="http://bss.hs.kr">2017.3 ~ 2020.2</Career>
                     <br />
-                    <Career careerName="서강대학교 컴퓨터공학과 학부">2020.3 ~ (휴학)</Career>
+                    <Career careerName="서강대학교 컴퓨터공학과 학부" careerLink="https://cs.sogang.ac.kr/cs/index_new.html">2020.3 ~ (휴학)</Career>
 
                     <Collapse>
-                        <Career careerName="Sogang ICPC Team" careerSummary="&nbsp;- 알고리즘 학회">학회원, 2020.3 ~ (현재)</Career>
-                        <Career careerName="Release" careerSummary="&nbsp;- 개발 학회">임원, 2020.9 ~ (현재)</Career>
-                        <Career careerName="CNU" careerSummary="&nbsp;- 웹 개발 학회">학회원, 2021.3 ~ (현재)</Career>
-                        <Career careerName="Sogang Wise Investing Club, SWIC" careerSummary="&nbsp;- 재테크 학회">팀장, 2020.9 ~ 2021.12</Career>
+                        <Career careerName="Sogang ICPC Team" careerLink="https://acm.sogang.ac.kr/" careerSummary="&nbsp;- 알고리즘 학회">학회원, 2020.3 ~ (현재)</Career>
+                        <Career careerName="Release" careerLink="http://release.sogang.ac.kr/" careerSummary="&nbsp;- 개발 학회">임원, 2020.9 ~ (현재)</Career>
+                        <Career careerName="CNU" careerLink="#" careerSummary="&nbsp;- 웹 개발 학회">학회원, 2021.3 ~ (현재)</Career>
+                        <Career careerName="Sogang Wise Investing Club, SWIC" careerLink="http://sgswic.com/" careerSummary="&nbsp;- 재테크 학회">팀장, 2020.9 ~ 2021.12</Career>
                     </Collapse>
 
                     <br />
-                    <Career careerName="SW 마에스트로 13기">2022.4 ~ (현재)</Career>
+                    <Career careerName="SW 마에스트로 13기" careerLink="https://www.swmaestro.org/sw/main/main.do">2022.4 ~ (현재)</Career>
 
                 </div>
                 <div className="techWrap">
