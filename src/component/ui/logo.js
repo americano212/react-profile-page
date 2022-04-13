@@ -19,14 +19,13 @@ const LogoText = styled.div``;
 // const LogoLink = styled.div``;
 export default function Logo({logoPath,background,logoName,children,logoLink}) {
     return (
-        <a href={logoLink} 
-        target="_blank"
-        rel="noopener noreferrer">
         <LogoWrap>
-            <LogoIcon background={background}><img src={logoPath} width="50" height="auto"></img></LogoIcon>
-            <LogoName><p>{logoName}</p></LogoName>
-            <LogoText><p>{children}</p></LogoText>
+            <a href={logoLink} 
+            target="_blank"
+            rel="noopener noreferrer">
+            <LogoIcon background={background}><img src={logoPath} width="50" height="auto"></img></LogoIcon></a>
+            <LogoName><p><a href={logoLink} target="_blank" rel="noopener noreferrer">{logoName}<br/>
+            {children}</a></p></LogoName>
         </LogoWrap>
-        </a>
     );
 }

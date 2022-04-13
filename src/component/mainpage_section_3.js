@@ -33,9 +33,9 @@ class FullPageSection3 extends Component{
                         <p><div className="p_bold">Main Tech Stack</div> : Django, Docker</p>
                         <p><div className="p_bold">Summary</div> : 처음으로 웹개발을 공부하며 만들기 시작한 Django 기반 카페형 블로그</p>
                         <br/>
-                        <a href="https://github.com/wq0212/BlogCreate" 
+                        <p><a href="https://github.com/wq0212/BlogCreate" 
                         target="_blank" 
-                        rel="noopener noreferrer"><p>Github</p></a>
+                        rel="noopener noreferrer">Github</a></p>
 
                     </div>
                     <div className="projectBox leftBox">
@@ -45,9 +45,9 @@ class FullPageSection3 extends Component{
                         <p><div className="p_bold">Main Tech Stack</div> : Node.js + express, Mysql</p>
                         <p><div className="p_bold">Summary</div> : 처음으로 git을 이용해 협업을 하면서 개발한 공학부 신문고 게시판</p>
                         <br/>
-                        <a href="https://github.com/wq0212/SGEngineering-Board" 
+                        <p><a href="https://github.com/wq0212/SGEngineering-Board" 
                         target="_blank" 
-                        rel="noopener noreferrer"><p>Github</p></a>
+                        rel="noopener noreferrer">Github</a></p>
                         
                     </div>
                     <div className="projectBox rightBox">
@@ -57,9 +57,9 @@ class FullPageSection3 extends Component{
                         <p><div className="p_bold">Main Tech Stack</div> : React</p>
                         <p><div className="p_bold">Summary</div> : 지금 보고 계시는 프로필 페이지</p>
                         <br/>
-                        <a href="https://github.com/wq0212/profile-page-react" 
+                        <p><a href="https://github.com/wq0212/profile-page-react" 
                         target="_blank" 
-                        rel="noopener noreferrer"><p>Github</p></a>
+                        rel="noopener noreferrer">Github</a></p>
                         
                     </div>
                 </div>
