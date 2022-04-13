@@ -27,7 +27,33 @@ class FullPageSection2 extends Component{
                     <Career careerName="SW 마에스트로 13기">2022.4 ~ (현재)</Career>
 
                 </div>
-
+                <div className="techWrap">
+                    <h1>Tech Stack</h1>
+                    <br/>
+                    <h4>Language</h4>
+                    <img src="https://img.shields.io/badge/Python-3766AB?style=for-the-badge&logo=Python&logoColor=white" alt="Python"/>&nbsp;
+                    <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=C%2B%2B&logoColor=white" alt="C++"/>&nbsp;
+                    <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=C&logoColor=white" alt="C"/>&nbsp;
+                    <img src="https://img.shields.io/badge/Javascript-ffb13b?style=for-the-badge&logo=javascript&logoColor=white" alt="JS"/>&nbsp;
+                    <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"/>&nbsp; 
+                    <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS"/>&nbsp; 
+                    <hr/>
+                    <h4>Framework</h4>
+                    <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white" alt="Nodejs"/>&nbsp;
+                    <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white" alt="Django"/>&nbsp;
+                    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>&nbsp;
+                    
+                    <hr/>
+                    <h4>Database</h4>
+                    <img src="https://img.shields.io/badge/Mysql-E6B91E?style=for-the-badge&logo=MySql&logoColor=white" alt="Mysql"/>&nbsp;
+                    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>&nbsp;
+                    <hr/>
+                    <h4>Server</h4>
+                    <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="ubuntu"/>&nbsp;
+                    <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/>&nbsp;
+                    <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>&nbsp;
+                    <hr/>
+                </div>
             </div>
         )
     }

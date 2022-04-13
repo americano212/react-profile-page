@@ -1,6 +1,7 @@
 import React,{ Component } from "react";
 import '../css/fullpage-overrides.css';
 import '../css/mainpage_section_1.css';
+import {Helmet} from "react-helmet";
 
 class FullPageSection1 extends Component{
     render(){
@@ -30,6 +31,14 @@ class FullPageSection1 extends Component{
                         <p>Sogang Univ. Computer Science</p>
                         <p>서강대학교 컴퓨터공학과 학부 휴학 중</p>
                         <p>Busan Science High School, 15th Graduate</p>
+                    </div>
+                    <div className="timeBox">
+                    <div id="remain-time"></div>
+                    <Helmet>
+                    <script>
+
+                    </script>
+                    </Helmet>
                     </div>
                 </div>
                 

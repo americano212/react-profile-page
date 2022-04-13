@@ -1,8 +1,14 @@
 .careerWrap{
     margin-left: 10%;
-    margin-right: 50%;
     margin-top: 5%;
+    float: left;
 }
 .careerWrap p{
     margin: 5px;
+}
+
+.techWrap{
+    margin-left: 50%;
+    margin-top: 5%;
+    margin-right: 10%;
 }

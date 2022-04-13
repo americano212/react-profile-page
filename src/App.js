@@ -10,6 +10,8 @@ import FullPageSection3 from './component/mainpage_section_3';
 import FullPageSection4 from './component/mainpage_section_4';
 import Header from './component/Header';
 
+
+
 export default function FullPageLanding() {
   $(() => {
       $('#fullpage').fullpage({
@@ -34,3 +36,4 @@ export default function FullPageLanding() {
 
   );
 }
+
