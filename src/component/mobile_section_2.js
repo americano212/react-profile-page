@@ -9,14 +9,14 @@ class MobileSection2 extends Component{
     render(){
         return (
             <div className="section">
-                <div className="careerWrap">
+                <div className="careerWrapM">
                     <h2>Career</h2>
                     <Career careerName="부산과학고등학교" careerLink="http://bss.hs.kr">2017.3 ~ 2020.2</Career>
                     <Career careerName="서강대학교 컴퓨터공학과 학부" careerLink="https://cs.sogang.ac.kr/cs/index_new.html">2020.3 ~ (휴학)</Career>
                     <Career careerName="SW 마에스트로 13기" careerLink="https://www.swmaestro.org/sw/main/main.do">2022.4 ~ (현재)</Career>
 
                 </div>
-                <div className="techWrap">
+                <div className="techWrapM">
                     <h2>Tech Stack</h2>
                     <h6>Language</h6>
                     <Badge badgeName="Python" badgeLogo="Python" badgeColor="white" badgeKind="square">Python-3766AB</Badge>
