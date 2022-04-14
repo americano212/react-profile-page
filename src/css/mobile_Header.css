@@ -1,7 +1,7 @@
 .headerM {
     background-color: #282c34;
     width: 100%;
-    height: 80px;
+    height: 8vh;
     position: absolute;
     top:0px;
     z-index:999;
@@ -10,7 +10,7 @@
     padding-right: 20px;
 }
 .headerM .buttonBox{
-    margin: 25px;
+    margin: 2vh;
     margin-right: 0;
     float: right;
     font-size: 16px;

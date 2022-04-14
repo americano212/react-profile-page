@@ -1,16 +1,24 @@
 import styled from "styled-components";
+import React from 'react';
 
 const BadgeWrap = styled.div`
 float:left;
 `;
-
-export default function Badge(props) {
-    return (
-        <BadgeWrap>
-            <img
-            src={`https://img.shields.io/badge/${props.children}?style=for-the-badge&logo=${props.badgeLogo}&logoColor=${props.badgeColor}`}
-            alt={props.badgeName}/>&nbsp;
-        </BadgeWrap>
-        
-    );
+class Badge extends React.Component {
+    render() {
+        return (
+            <BadgeWrap>
+                <img
+                src={`https://img.shields.io/badge/${this.props.children}?style=for-the-${this.props.badgeKind}&logo=${this.props.badgeLogo}&logoColor=${this.props.badgeColor}`}
+                alt={this.props.badgeName}/>&nbsp;
+            </BadgeWrap>
+            
+        );
+    }
 }
+
+Badge.defaultProps = {
+    badgeKind: 'badge'
+};
+
+export default Badge;

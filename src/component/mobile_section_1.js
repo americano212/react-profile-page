@@ -28,7 +28,7 @@ class MobileSection1 extends Component{
                     </div>
                     <br />
                     <br />
-                    <div className="educationBox">
+                    <div className="educationBoxM">
                         <h2>EDUCATION</h2>
                         <p><a href="https://www.swmaestro.org/sw/main/main.do" 
                         target="_blank" 

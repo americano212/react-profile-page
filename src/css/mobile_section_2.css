@@ -1,0 +1,16 @@
+.careerWrap{
+    margin-left: 10%;
+    margin-top: 15%;
+    margin-right: 20%;
+    margin-bottom: 2vh;
+}
+.careerWrap p{
+    margin: 5px;
+    font-size: 2vh;
+}
+
+.techWrap{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+}
