@@ -1,5 +1,12 @@
 .contactWrap{
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 5%;
+    padding-top: 5%;
+}
+
+.logoBox{
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
 }
