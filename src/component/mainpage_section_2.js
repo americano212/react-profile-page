@@ -4,7 +4,7 @@ import '../css/mainpage_section_2.css';
 import Career from "./ui/career";
 import Collapse from './ui/collapse';
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Badge from "./ui/badge";
 class FullPageSection2 extends Component{
     render(){
         return (
@@ -31,6 +31,7 @@ class FullPageSection2 extends Component{
                     <h1>Tech Stack</h1>
                     <br/>
                     <h4>Language</h4>
+                    <Badge badgeName="Python" badgeLogo="Python" badgeColor="white">Python-3766AB</Badge>
                     <img src="https://img.shields.io/badge/Python-3766AB?style=for-the-badge&logo=Python&logoColor=white" alt="Python"/>&nbsp;
                     <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=C%2B%2B&logoColor=white" alt="C++"/>&nbsp;
                     <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=C&logoColor=white" alt="C"/>&nbsp;
