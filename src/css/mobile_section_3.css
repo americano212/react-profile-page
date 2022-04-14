@@ -1,0 +1,26 @@
+.projectWrapM{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20%;
+}
+
+.projectBoxM{
+    width: 100%;
+    height: 35%;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 5%;
+    padding-bottom: 5px;
+    box-shadow: 5px 5px 10px grey;
+    margin-bottom: 20px;
+}
+
+
+.projectBox p{
+    margin: 0;
+}
+
+.p_bold{
+    font-weight: bold;
+}
