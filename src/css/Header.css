@@ -15,6 +15,6 @@
     font-size: 16px;
     
 }
-.header a:link { color: white; text-decoration: none;}
-.header a:visited { color: white; text-decoration: none;}
-.header a:hover { color: gray; text-decoration: underline;}
+.headerM a:link { color: white; text-decoration: none;}
+.headerM a:visited { color: white; text-decoration: none;}
+.headerM a:hover { color: gray; text-decoration: underline;}

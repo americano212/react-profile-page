@@ -1,4 +1,4 @@
-.header {
+.headerM {
     background-color: #282c34;
     width: 100%;
     height: 80px;
@@ -9,7 +9,7 @@
     text-align: right;
     padding-right: 20px;
 }
-.header .buttonBox{
+.headerM .buttonBox{
     margin: 25px;
     margin-right: 0;
     float: right;

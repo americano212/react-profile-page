@@ -19,18 +19,19 @@ import MobileSection3 from './component/mobile_section_3';
 import MobileSection4 from './component/mobile_section_4';
 
 export default function FullPageLanding() {
+  const standardWidth = 750;
+  const ISpcScreen = useMediaQuery({ query: `(min-width: ${standardWidth}px)` });
+  const ISmobileScreen = useMediaQuery({ query: `(max-width: ${standardWidth-1}px)` });
   $(() => {
       $('#fullpage').fullpage({
           scrollOverflow: true,
           sectionsColor: ['#ffffff', '#f0f0f1', '#ffffff','#f0f0f1'],
-          navigation: true,
+          navigation: ISpcScreen,
           navigationTooltips: ['Home', 'Career', 'Projects','Contacts'],
           scrollingSpeed: 1000,
       });
   });
-  const standardWidth = 1024;
-  const ISpcScreen = useMediaQuery({ query: `(min-width: ${standardWidth}px)` });
-  const ISmobileScreen = useMediaQuery({ query: `(max-width: ${standardWidth-1}px)` });
+  
   return (
     <div id='app'>
         {ISpcScreen && <Header></Header>}

@@ -4,7 +4,7 @@ import { FaYoutube,FaGithub,FaBloggerB } from "react-icons/fa";
 class Header extends Component{
     render(){
         return (
-            <div className="header">
+            <div className="headerM">
                 <a href="https://www.youtube.com/channel/UCXgIxJNWOp3E6RfYcUuaH3g"
                 target="_blank" 
                 rel="noopener noreferrer">
