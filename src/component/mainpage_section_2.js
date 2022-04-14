@@ -32,27 +32,29 @@ class FullPageSection2 extends Component{
                     <br/>
                     <h4>Language</h4>
                     <Badge badgeName="Python" badgeLogo="Python" badgeColor="white">Python-3766AB</Badge>
-                    <img src="https://img.shields.io/badge/Python-3766AB?style=for-the-badge&logo=Python&logoColor=white" alt="Python"/>&nbsp;
-                    <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=C%2B%2B&logoColor=white" alt="C++"/>&nbsp;
-                    <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=C&logoColor=white" alt="C"/>&nbsp;
-                    <img src="https://img.shields.io/badge/Javascript-ffb13b?style=for-the-badge&logo=javascript&logoColor=white" alt="JS"/>&nbsp;
-                    <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"/>&nbsp; 
-                    <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS"/>&nbsp; 
+                    <Badge badgeName="C++" badgeLogo="C%2B%2B" badgeColor="white">C++-00599C</Badge>
+                    <Badge badgeName="C" badgeLogo="C" badgeColor="white">C-A8B9CC</Badge>
+                    <Badge badgeName="JS" badgeLogo="javascript" badgeColor="white">Javascript-ffb13b</Badge>
+                    <Badge badgeName="HTML" badgeLogo="html5" badgeColor="white">html5-E34F26</Badge>
+                    <Badge badgeName="CSS" badgeLogo="css3" badgeColor="white">css-1572B6</Badge>
+                    <br/>
                     <hr/>
                     <h4>Framework</h4>
-                    <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white" alt="Nodejs"/>&nbsp;
-                    <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white" alt="Django"/>&nbsp;
-                    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>&nbsp;
-                    
+                    <Badge badgeName="Nodejs" badgeLogo="Node.js" badgeColor="white">node.js-339933</Badge>
+                    <Badge badgeName="Django" badgeLogo="Django" badgeColor="white">Django-092E20</Badge>
+                    <Badge badgeName="React" badgeLogo="react" badgeColor="61DAFB">React-20232A</Badge>
+                    <br/>
                     <hr/>
                     <h4>Database</h4>
-                    <img src="https://img.shields.io/badge/Mysql-E6B91E?style=for-the-badge&logo=MySql&logoColor=white" alt="Mysql"/>&nbsp;
-                    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>&nbsp;
+                    <Badge badgeName="Mysql" badgeLogo="MySql" badgeColor="white">Mysql-E6B91E</Badge>
+                    <Badge badgeName="MongoDB" badgeLogo="mongodb" badgeColor="white">MongoDB-4EA94B</Badge>
+                    <br/>
                     <hr/>
                     <h4>Server</h4>
-                    <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="ubuntu"/>&nbsp;
-                    <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/>&nbsp;
-                    <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>&nbsp;
+                    <Badge badgeName="ubuntu" badgeLogo="ubuntu" badgeColor="white">Ubuntu-E95420</Badge>
+                    <Badge badgeName="AWS" badgeLogo="amazon-aws" badgeColor="white">Amazon_AWS-232F3E</Badge>
+                    <Badge badgeName="Docker" badgeLogo="docker" badgeColor="white">docker-%230db7ed.svg</Badge>
+                    <br/>
                     <hr/>
                 </div>
             </div>
