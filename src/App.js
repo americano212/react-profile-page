@@ -12,7 +12,7 @@ import Header from './component/Header';
 
 import { useMediaQuery } from 'react-responsive';
 
-
+import MobileHeader from './component/mobile_Header';
 import MobileSection1 from './component/mobile_section_1';
 import MobileSection2 from './component/mobile_section_2';
 import MobileSection3 from './component/mobile_section_3';
@@ -33,7 +33,8 @@ export default function FullPageLanding() {
   const ISmobileScreen = useMediaQuery({ query: `(max-width: ${standardWidth-1}px)` });
   return (
     <div id='app'>
-        <Header></Header>    
+        {ISpcScreen && <Header></Header>}
+        {ISmobileScreen && <MobileHeader></MobileHeader>}
         <div id="fullpage">
             {ISpcScreen && <FullPageSection1></FullPageSection1>}
             {ISmobileScreen && <MobileSection1></MobileSection1>}
