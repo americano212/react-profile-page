@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const LogoWrap = styled.div`
 float: left;
-margin: 3%;
+margin: 2%;
 margin-bottom: 0;
 `;
 const LogoIcon = styled.div`

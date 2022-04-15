@@ -13,7 +13,7 @@ class MobileSection3 extends Component{
                     <div className="projectBoxM">
                         <h4>Campus Compass</h4>
                         <p>Sogang Univ. Artech Hackathon 1st</p>
-                        <p><div className="p_bold">Main Tech Stack : </div>
+                        <p><div className="p_bold">Main Tech Stack :&nbsp;</div>
                         <Badge badgeName="Nodejs" badgeLogo="Node.js" badgeColor="white" badgeKind="square">node.js-339933</Badge>
                         <Badge badgeName="Mysql" badgeLogo="MySql" badgeColor="white" badgeKind="square">Mysql-E6B91E</Badge>
                         </p>
@@ -30,7 +30,7 @@ class MobileSection3 extends Component{
                     <div className="projectBoxM">
                         <h4>Blog Create</h4>
                         <p>Make own blog project use Django</p>
-                        <p><div className="p_bold">Main Tech Stack : </div>
+                        <p><div className="p_bold">Main Tech Stack :&nbsp;</div>
                         <Badge badgeName="Django" badgeLogo="Django" badgeColor="white" badgeKind="square">Django-092E20</Badge>
                         <Badge badgeName="Docker" badgeLogo="docker" badgeColor="white" badgeKind="square">docker-%230db7ed.svg</Badge>
                         </p>
@@ -44,7 +44,7 @@ class MobileSection3 extends Component{
                         <h4>Profile Page</h4>
 
                         <p>Make own profile page use react</p>
-                        <p><div className="p_bold">Main Tech Stack : </div>
+                        <p><div className="p_bold">Main Tech Stack :&nbsp;</div>
                         <Badge badgeName="React" badgeLogo="react" badgeColor="61DAFB" badgeKind="square">React-20232A</Badge>
                         </p>
                         <br/>

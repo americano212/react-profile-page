@@ -9,7 +9,7 @@ class MobileSection4 extends Component{
         return (
             <div className="section">
                 <div className="contactWrapM">
-                    <h1>Contacts</h1>
+                    <div className="contactTitleBoxM"><h1>Contacts</h1></div>
                     <div className="logoBoxM">                    
                     <Logo logoName="Facebook" logoPath="img/icon/facebook.svg" logoLink="https://www.facebook.com/profile.php?id=100010290605875" background="#4267B2"></Logo>
                     <Logo logoName="Instagram" logoPath="img/icon/instagram.svg" logoLink="https://www.instagram.com/dongjun0212/?hl=ko" background="#C13584"></Logo>
