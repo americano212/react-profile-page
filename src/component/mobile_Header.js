@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "../css/mobile_Header.css";
-import { FaLinkedin, FaGithub, FaBloggerB } from "react-icons/fa";
+import {FaLinkedin, FaGithub, FaBloggerB} from "react-icons/fa";
 class Header extends Component {
   render() {
     return (

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "../css/fullpage-overrides.css";
 import "../css/mobile_section_2.css";
 import Career from "./ui/career";

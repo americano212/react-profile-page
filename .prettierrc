@@ -1,0 +1,21 @@
+{
+  "arrowParens": "avoid",
+  "bracketSpacing": false,
+  "endOfLine": "auto",
+  "htmlWhitespaceSensitivity": "css",
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "semi": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "printWidth": 200
+      }
+    }
+  ]
+}

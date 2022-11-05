@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "../css/fullpage-overrides.css";
 import "../css/mainpage_section_4.css";
 
