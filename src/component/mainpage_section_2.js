@@ -125,6 +125,9 @@ class FullPageSection2 extends Component {
           <Badge badgeName="Git" badgeLogo="git" badgeColor="white">
             git-F05032
           </Badge>
+          <Badge badgeName="Selenium" badgeLogo="selenium" badgeColor="white">
+            selenium-%43B02A
+          </Badge>
           <br />
           <hr />
         </div>

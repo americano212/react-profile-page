@@ -14,7 +14,8 @@ class MobileSection3 extends Component {
             <h4>Campus Compass</h4>
             <p>Sogang Univ. Artech Hackathon 1st</p>
             <p>
-              <div className="p_bold">Main Tech Stack :&nbsp;</div>
+              <div className="p_bold">Main Tech Stack</div>
+              <br />
               <Badge
                 badgeName="Nodejs"
                 badgeLogo="Node.js"
@@ -55,7 +56,8 @@ class MobileSection3 extends Component {
             <h4>Blog Create</h4>
             <p>Make own blog project use Django</p>
             <p>
-              <div className="p_bold">Main Tech Stack :&nbsp;</div>
+              <div className="p_bold">Main Tech Stack</div>
+              <br />
               <Badge
                 badgeName="Django"
                 badgeLogo="Django"
@@ -86,10 +88,10 @@ class MobileSection3 extends Component {
           </div>
           <div className="projectBoxM">
             <h4>DDAKZIP (APP)</h4>
-            <br />
             <p>SW Maestro Project, App service for home seekers (2022.4 ~ )</p>
             <p>
-              <div className="p_bold">Main Tech Stack :&nbsp;</div>
+              <div className="p_bold">Main Tech Stack</div>
+              <br />
               <Badge
                 badgeName="TS"
                 badgeLogo="typescript"
@@ -123,7 +125,6 @@ class MobileSection3 extends Component {
                 GraphQL-E10098
               </Badge>
             </p>
-            <br />
             <br />
             <p>
               <a
