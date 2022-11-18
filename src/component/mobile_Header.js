@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "../css/mobile_Header.css";
-import {FaLinkedin, FaGithub, FaBloggerB} from "react-icons/fa";
+import {FaLinkedin, FaGithub, FaBloggerB, FaFileAlt} from "react-icons/fa";
 class Header extends Component {
   render() {
     return (
@@ -32,6 +32,15 @@ class Header extends Component {
         >
           <div className="blogButton buttonBox">
             <FaBloggerB size={30} />
+          </div>
+        </a>
+        <a
+          href="https://resume.dongjun.me/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="resumeButton buttonBox">
+            <FaFileAlt size={30} />
           </div>
         </a>
       </div>

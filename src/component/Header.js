@@ -28,6 +28,13 @@ class Header extends Component {
         >
           <div className="blogButton buttonBox">BLOG</div>
         </a>
+        <a
+          href="https://resume.dongjun.me/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="resumeButton buttonBox">RESUME</div>
+        </a>
       </div>
     );
   }
