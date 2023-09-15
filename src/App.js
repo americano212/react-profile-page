@@ -29,7 +29,7 @@ export default function FullPageLanding() {
       scrollOverflow: true,
       sectionsColor: ["#ffffff", "#f0f0f1", "#ffffff", "#f0f0f1"],
       navigation: ISpcScreen,
-      navigationTooltips: ["Home", "Career", "Projects", "Contacts"],
+      navigationTooltips: ["Career", "Projects", "Contacts"],
       scrollingSpeed: 1000,
     });
   });
@@ -39,8 +39,8 @@ export default function FullPageLanding() {
       {ISpcScreen && <Header></Header>}
       {ISmobileScreen && <MobileHeader></MobileHeader>}
       <div id="fullpage">
-        {ISpcScreen && <FullPageSection1></FullPageSection1>}
-        {ISmobileScreen && <MobileSection1></MobileSection1>}
+        {/* {ISpcScreen && <FullPageSection1></FullPageSection1>}
+        {ISmobileScreen && <MobileSection1></MobileSection1>} */}
 
         {ISpcScreen && <FullPageSection2></FullPageSection2>}
         {ISmobileScreen && <MobileSection2></MobileSection2>}
