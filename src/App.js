@@ -4,7 +4,7 @@ import "fullpage.js";
 import "fullpage.js/dist/jquery.fullpage.min.css";
 import $ from "jquery";
 
-import FullPageSection1 from "./component/mainpage_section_1";
+// import FullPageSection1 from "./component/mainpage_section_1";
 import FullPageSection2 from "./component/mainpage_section_2";
 import FullPageSection3 from "./component/mainpage_section_3";
 import FullPageSection4 from "./component/mainpage_section_4";
@@ -13,7 +13,7 @@ import Header from "./component/Header";
 import {useMediaQuery} from "react-responsive";
 
 import MobileHeader from "./component/mobile_Header";
-import MobileSection1 from "./component/mobile_section_1";
+// import MobileSection1 from "./component/mobile_section_1";
 import MobileSection2 from "./component/mobile_section_2";
 import MobileSection3 from "./component/mobile_section_3";
 import MobileSection4 from "./component/mobile_section_4";
