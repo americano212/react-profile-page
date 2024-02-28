@@ -16,7 +16,7 @@ class FullPageSection1 extends Component {
           <div className="mainTextBox">
             <p>One Coding</p>
             <p>One Coffee</p>
-            <p>for a day</p>
+            <p>for a day </p>
           </div>
           <br />
           <br />
